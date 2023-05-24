@@ -4,8 +4,10 @@ import "fmt"
 
 func main() {
 	
-	// fmt.Println("Hello World")  //How to Print
-
+	/*
+	0) How to Print Something
+	    fmt.Println("Hello World")
+	*/ 
 
     /*
 	1) To Store String Variable
