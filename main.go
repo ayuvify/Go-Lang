@@ -5,12 +5,12 @@ import "fmt"
 func main() {
 	
 	/*
-	0) How to Print Something
+	1) How to Print Something 
 	    fmt.Println("Hello World")
-	*/ 
+	*/
 
     /*
-	1) To Store String Variable
+	2) To Store String Variable
         var username string = "Ayush"
 	    fmt.Println(username)
 	    fmt.Printf("Variable is of type: %T \n", username) //To know data type
@@ -18,7 +18,7 @@ func main() {
 	
 	
 	/*
-	2) To Store Boolean 
+	3) To Store Boolean 
 	    var isLoggedIn bool = true
 	    fmt.Println(isLoggedIn)
 	    fmt.Printf("Variable is of type: %T \n", isLoggedIn) //To know data type
@@ -26,7 +26,7 @@ func main() {
 
 	
 	/*
-	3) To Store Int with different type of memory capacity
+	4) To Store Int with different type of memory capacity
 	    var smallval uint8 = 225
 	    fmt.Println(smallval)
 	    fmt.Printf("Variable is of type: %T \n", smallval) //To know data type
@@ -34,7 +34,7 @@ func main() {
 
 	
 	/*
-	4) To Declare A Varaiable Without Value
+	5) To Declare A Varaiable Without Value
 	    var smallDec int
 	    fmt.Println(smallDec)f
 	    fmt.Printf("Variable is of type: %T \n", smallDec)
@@ -42,27 +42,35 @@ func main() {
 
 
 	/* 
-	5) Implicit Type Conversion
+	6) Implicit Type Conversion
 	    var username = "Ayush"
 	    fmt.Println(username)
 	    fmt.Printf("Variable is of type: %T \n", username)
 	*/
 
 	/*
-	6) No Var Declaration But It can be declare only under a function
+	7) No Var Declaration But It can be declare only under a function
 	    noOfAttempt := 5600
 	    fmt.Println(noOfAttempt)
 	*/
 
 	/*
-	7) Constant and Public Declaration
+	8) Constant and Public Declaration
 	const letter = "Private"
 	const Letter = "Public" // For Every Public variable or constant need the name start with Capital Letter
 	fmt.Println("This is not a public constant", letter);
 	fmt.Println("This is a public constant", Letter);
 	*/
 
-	var username string = "Ayush"
-	fmt.Println(username)
-	fmt.Printf("Variable is of type: %T \n", username)
+	/*
+	9) Time Study of GoLang
+	present := time.Now()
+	create := time.Date(2020, time.April,10,23,23,0,0,time.UTC)
+
+	fmt.Println("Present Date Without Format :",present)
+	fmt.Println("Present Date With Format :", present.Format("02-01-2006 15:04:05 Monday"))
+	fmt.Println("Created Date :",create)
+	*/
+
+	fmt.Print("Casual Print")
 }
