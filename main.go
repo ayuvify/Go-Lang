@@ -72,5 +72,40 @@ func main() {
 	fmt.Println("Created Date :",create)
 	*/
 
+
+	/* 
+	10) Pointers
+
+	A) Normal Init A Variable
+	    var one int = 2
+	    fmt.Println(one)
+	
+	B) Pointer Init A Variable
+	    var ptr *int
+	    fmt.Print(ptr)
+	
+	C) Memory Address
+	    num := 12
+	    var ptr = &num
+	    fmt.Println(ptr)
+	*/
+
+
+	/* 11) Array
+	
+	A) One Type of Array Init
+	    var fl [4]string 
+	    fl[0] = "Apple"
+	    fl[1] = "Banana"
+	    fl[3] = "Cucumber"
+	
+	    fmt.Println(fl)
+	    fmt.Println(len(fl))
+
+	B) Second Type of Array Init
+	    var vl = [3]string{"potato","beans","mushroom"}
+	    fmt.Println(vl)
+	*/
+
 	fmt.Print("Casual Print")
 }
