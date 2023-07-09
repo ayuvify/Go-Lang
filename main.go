@@ -1,6 +1,8 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
 func main() {
 	
@@ -91,7 +93,8 @@ func main() {
 	*/
 
 
-	/* 11) Array
+	/*
+    11) Array
 	
 	A) One Type of Array Init
 	    var fl [4]string 
@@ -105,6 +108,58 @@ func main() {
 	B) Second Type of Array Init
 	    var vl = [3]string{"potato","beans","mushroom"}
 	    fmt.Println(vl)
+	*/
+
+	/*
+	12) Append Function
+
+	var fruit = []string{"Apple", "Tomato", "Peach"}
+	fruit = append(fruit, "Mango", "Banana")
+	fmt.Println(fruit)
+
+	// With Starting Point
+	fruit = append(fruit[1:])
+	fmt.Println(fruit)
+	
+	// With Ending Point
+	fruit = append(fruit[:3])
+	fmt.Println(fruit)
+
+	// With Both Starting and Ending Point
+	fruit = append(fruit[1:3])
+	fmt.Println(fruit)
+	*/
+
+	/*
+	13) Make Function
+	max := make([]int, 4)
+	max[0] = 234
+	max[1] = 945
+	max[2] = 465
+	max[3] = 867
+	fmt.Println(max)
+	*/
+
+	/*
+	14) Sort Function
+	max := make([]int, 4)
+	sort.Ints((max))
+	fmt.Println(max)
+	*/
+
+	/*
+	15) Sort Check Function
+	max := make([]int, 4)
+	fmt.Println(sort.IntsAreSorted(max))
+	*/
+
+	/*
+	16) Example of Sort Function
+	var course = []string{"react","js","swift","python","ruby"}
+	fmt.Println(course)
+	index := 2
+	course = append(course[:index], course[index+1:]...)
+	fmt.Println(course)
 	*/
 
 	fmt.Print("Casual Print")
