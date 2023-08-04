@@ -162,5 +162,45 @@ func main() {
 	fmt.Println(course)
 	*/
 
-	fmt.Print("Casual Print")
-}
+	/* 17) Maps 
+	lang := make(map[string]string)
+
+	lang["JS"] = "Javascript"
+	lang["RB"] = "Ruby"
+	lang["PY"] = "Python"
+	fmt.Println("List of all languages: ", lang)
+	
+	fmt.Println("JS Full Form: ", lang["JS"])
+	
+	delete(lang, "RB")
+	fmt.Println("List of all languages: ", lang)
+
+	// loops on maps
+
+	for key, value := range lang{
+		fmt.Printf("For key %v, value is %v\n", key, value)
+	}
+
+	for _, value := range lang{
+		fmt.Printf("For key v, value is %v\n", value)
+	}*/
+
+	/* 18) Structs - Type of Class 
+	    //no inheritance in golang; no super or parent
+		
+		detail := User{"Ayush", "ayush@go.dev", true, 16}
+		fmt.Println(detail)
+		fmt.Printf("detail of me: %+v\n", detail)
+		fmt.Printf("name is: %v and email is %v", detail.Name, detail.Email)*/
+
+		fmt.Print("Casual Print")
+
+	}
+
+	/* 18) Structs - Type of Class
+	type User struct {
+		Name	string
+		Email	string
+		Status	bool
+		Age	int
+	} */
