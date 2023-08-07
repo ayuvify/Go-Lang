@@ -1,0 +1,8 @@
+go 1.20
+
+use (
+	.
+	./01-Print
+	./02-Var
+	./03-VarConv
+)
