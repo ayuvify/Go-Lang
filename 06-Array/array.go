@@ -2,9 +2,9 @@ package main
 
 import "fmt"
 
-func main()  {
+func main() {
 	// A) One Type of Array Init
-	var fl [4]string 
+	var fl [4]string
 	fl[0] = "Apple"
 	fl[1] = "Banana"
 	fl[2] = "Cucumber"
@@ -12,6 +12,6 @@ func main()  {
 	fmt.Println("Length of Array :", len(fl))
 
 	// B) Second Type of Array Init
-	var vl = [3]string{"potato","beans","mushroom"}
+	vl := [3]string{"potato", "beans", "mushroom"}
 	fmt.Println(vl)
 }
